@@ -8,7 +8,7 @@ router.post('/candidates', async (req, res) => {
 
     if (req.body.challenge) {
         console.log('challenge found!', req.body);
-        res.status(200).send(req.body.challenge);
+        res.status(200).send(req.body);
     } else {
         console.log('NO challenge!', req.body);
         res.status(200).send('Webhook received');
