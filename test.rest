@@ -1,0 +1,11 @@
+@hostname = http://localhost
+@port = 10000
+# @port = {{$dotenv PORT}}
+@host = {{hostname}}:{{port}}/api/v2
+### run
+POST {{host}}/candidates
+Content-Type: application/json
+
+{
+ "challenge": "3eZbrw1aBm2rZgRNFdxV2595E9CY3gmdALWMmHkvFXO7tYXAYM8P"
+}

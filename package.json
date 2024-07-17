@@ -1,0 +1,22 @@
+{
+  "name": "monday_box_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "Alex J. Weisman",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "box-node-sdk": "^3.7.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node": "^18.20.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
