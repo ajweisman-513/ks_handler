@@ -6,7 +6,7 @@ dotenv.config();
 const clientId = process.env.BOX_CLIENT_ID;
 const clientSecret = process.env.BOX_CLIENT_SECRET;
 const developerToken = process.env.BOX_DEVELOPER_TOKEN;
-const parentFolderId = process.env.BOX_PARENT_FOLDER_ID;
+const parentFolderId = process.env.BOX_CANDIDATE_FOLDER_ID;
 
 const sdk = new BoxSDK({
     clientID: clientId,
